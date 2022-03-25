@@ -106,8 +106,8 @@ hparams = {
     'tgt': 'to',
     'vocab_prefix': os.path.join(train_dir, "vocab"),
     'train_prefix': os.path.join(train_dir, "train"),
-    'dev_prefix': os.path.join(train_dir, "test"),
-    'test_prefix': os.path.join(train_dir, "test"),
+    'dev_prefix': os.path.join(train_dir, "tst2012"),
+    'test_prefix': os.path.join(train_dir, "tst2013"),
     'out_dir': out_dir,
     'share_vocab': preprocessing['joined_vocab'],
 }
